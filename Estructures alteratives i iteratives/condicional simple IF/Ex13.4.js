@@ -11,4 +11,5 @@ if (num1 < num2 ) {
 
 else {
     console.log(" El num més gran és", num1);
-}
+};
+
