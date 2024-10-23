@@ -5,5 +5,5 @@ if (numLlegit % 2 == 0){
 }
 
 else {
-    document.write ("Senar")
+    document.write ("Senar");
 }
