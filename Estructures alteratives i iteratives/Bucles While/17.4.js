@@ -6,7 +6,7 @@ if(N>1){
     console.log(b);
 }
 
-while(i <= N-1){
+while(i <= N-2){
     suma=a+b;
     console.log(suma);
     a=b;
