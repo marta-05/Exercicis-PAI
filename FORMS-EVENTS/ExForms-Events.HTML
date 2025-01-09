@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="document.getElementById('correu').focus()>
+    <form name= "formulari1">
+    "First name:"
+    <br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    "Last Name:"
+    <br>
+    <input type="text" name="lastname" value="Mouse">
+    <br>
+    </from>
+
+    <form name="correu">
+    "Correu electronic"
+    <br>
+    <input type="text" name="correu"  id=correu >
+    </form>
+
+    <form name="formulari2">
+    <input type="radio" name="opcions" value="Sí" id="preg_si" checked>
+    "Sí"
+    <br>
+    <input type="radio" name="opcions" value="No" id="preg_no">
+    "No"
+    <br>
+    <input type="radio" name="opcions" value="NSNC" id="preg_nsnc">
+    "NSNC"
+    <br>
+    </form>
+
+    <form name="Formulari 3">
+        <input type="checkbox" name="check" value="Sí" id="checkSi" checked>
+        "Sí"
+        <br>
+        <input type="checkbox" name="check" value="Sí" id="CheckNo">
+        "No"
+        <br>
+    </form>
+    
+    <form name="Formulari 4">
+        <select id="triarOp" name="opcions">
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+            <option value="nsnc">nsnc</option>
+        <br>
+       
+    </form>
+    <button id="botoenviar type="submit" onclick="enviar()">Enviar formulari 4</button>
+    <div>
+        <p id="resultats"></p>
+    </div>
+    <script src="ExForms-Events.js"></script>
+
+
+    
+    
+</body>
+</html>
